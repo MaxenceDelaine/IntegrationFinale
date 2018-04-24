@@ -1,0 +1,361 @@
+.centerAlign {
+  position:relative;
+  text-align:center;
+  margin-top:auto;
+  margin-bottom:auto;
+  top:40%;
+}
+
+.leftAlign {
+  position:relative;
+  text-align:left;
+  margin-top:auto;
+  margin-bottom:auto;
+  top:40%;
+}
+
+.orange-ring {
+  width: 50px;
+  height: 50px;
+  border-color: #ffa600;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 30px;
+  background-color: rgba(255, 166, 0, 0);
+  box-shadow: inset 2px 2px 2px 0px #996400, 2px 2px 2px 0px #996400;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.yellow-ring {
+  display:inline-block;
+  float:right;
+  width: 150px;
+  height: 150px;
+  border-color: #ffe30c;
+  border-width: 12px;
+  border-style: solid;
+  border-radius: 100px;
+  background-color: rgba(255, 227, 12, 0);
+  box-shadow: inset 6px 6px 6px 0px #a59200, 6px 6px 6px 0px #a59200;
+  margin-bottom: 5%;
+}
+/* Creating 6 rings */
+.black-ring-1 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 100px;
+  background-color: transparent;
+  box-shadow: inset 1px 1px 1px 0px #3d3d3d, 1px 1px 1px 0px #3d3d3d;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.black-ring-2 {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 100px;
+  background-color: transparent;
+  box-shadow: inset 2px 2px 2px 0px #3d3d3d, 2px 2px 2px 0px #3d3d3d;
+  left: 13px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.black-ring-3 {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 100px;
+  background-color: transparent;
+  box-shadow: inset 3px 3px 3px 0px #3d3d3d, 3px 3px 3px 0px #3d3d3d;
+  left: 39px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.black-ring-4 {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-color: black;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 100px;
+  background-color: transparent;
+  box-shadow: inset 4px 4px 4px 0px #3d3d3d, 4px 4px 4px 0px #3d3d3d;
+  left: 78px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.black-ring-5 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 100px;
+  background-color: transparent;
+  box-shadow: inset 5px 5px 5px 0px #3d3d3d, 5px 5px 5px 0px #3d3d3d;
+  left: 130px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.black-ring-6 {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  border-color: black;
+  border-width: 6px;
+  border-style: solid;
+  border-radius: 100px;
+  background-color: transparent;
+  box-shadow: inset 6px 6px 6px 0px #3d3d3d, 6px 6px 6px 0px #3d3d3d;
+  left: 195px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.col-align {
+  position: absolute;
+  top: 35%;
+  left: 45%; }
+
+/* end rings */
+.row-ring {
+  padding: 30px 0 30px 0;
+}
+
+.position-relative {
+  position: relative; }
+
+/* START OF: OLD AND DISCUSTING CSS TO BE REFACTORED */
+.white-bg {
+  background-color: white; }
+
+.container-fluid {
+  padding: 0; }
+
+.carousel-caption {
+  font-family: liee;
+  font-size: 35px; }
+
+.collapse {
+  padding-right: 0;
+  padding-left: 0; }
+
+.navbar-collapse {
+  padding-right: 0px;
+  padding-left: 20px;
+  margin-right: 0;
+  margin-left: 0; }
+
+nav {
+  font-family: aniron;
+  font-size: 11px;
+  font-weight: bold;
+  background-color: #ff6300;
+  border-radius: 0; }
+
+.logo {
+  margin: 5px; }
+
+#myCarousel {
+  padding-left: 0;
+  padding-right: 0; }
+
+.carousel-caption {
+  height: 60%; }
+
+.section-title {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.beige {
+  background-image: url(images/bglight.png);
+  background-repeat: repeat; }
+
+.noire {
+  background-image: url(images/bgdark.png);
+  background-repeat: repeat;
+  color: white; }
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold; }
+
+h3 {
+  font-size: 50px; }
+
+#j1, #j2, #j3, #j4, #j5, #j6 {
+  color: white; }
+
+ul.nav {
+  color: black; }
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin-right: 0;
+  font-family: aniron; }
+
+.gimli-text {
+  font-family: liee;
+  color: #db4718;
+  font-size: 30px;
+  text-align: center;
+  position: relative; }
+
+img.media-object {
+  border: 0;
+  border-radius: 100%; }
+
+.panel .panel-heading {
+  background-color: #ff6600; }
+
+.panel > .panel-heading {
+  background-image: none;
+  background-color: #ff6600;
+  color: white; }
+
+.panel {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: solid 3px #e67916; }
+
+.panel-body {
+  color: black; }
+
+table {
+  margin: 15px;
+  padding: 15px;
+  width: 100%;
+  height: auto; }
+
+th, td {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+td {
+  color: grey; }
+
+.table-title {
+  border-bottom: solid black 1px; }
+
+.table-content {
+  border-bottom: solid grey 1px; }
+
+.thumbnail {
+  background-color: black; }
+
+.thumb {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px; }
+
+.img-coin {
+  height: auto; }
+
+.parag {
+  font-size: 15px;
+  font-family: liee;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: auto;
+  margin-right: 0;
+  float: left; }
+
+.sep {
+  border-right: white solid 2px;
+  color: white; }
+
+.pills:hover {
+  color: orange;
+  text-decoration: underline;
+  font-weight: bold;
+  background-color: transparent; }
+
+a .hid {
+  visibility: hidden; }
+
+a:hover .hid {
+  visibility: visible; }
+
+#tumb-text {
+  color: #a8a8a8;
+  font-family: liee;
+  font-size: 15px; }
+
+@font-face {
+  font-family: "aniron";
+  src: url("font/anirb.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  src: url("font/anirm.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "liee";
+  src: url("font/partybusiness.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "symbols";
+  src: url("font/tnganbi.ttf") format("truetype");
+  src: url("font/tngani.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: normal; }
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0; }
+
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0; }
+
+html {
+  font-size: 14px; }
+
+.avatar {
+  width: 15vw;
+  height: auto; }
+
+.nav img {
+  width: 50%;
+  margin-top: 10px; }
+
+#sep {
+  border-right: solid white 1px;
+  border-right-width: thin; }
+
+.container-fluid {
+  background-color: #ff6600; }
+
+footer {
+  background-color: #ff6600;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center; }
+
+/* END OF: OLD AND DISCUSTING CSS TO BE REFACTORED */
+/*# sourceMappingURL=precious.css.map */
+
+/*# sourceMappingURL=precious.css.map */
